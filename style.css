@@ -623,43 +623,6 @@ body {
   opacity: 1;
   transform: translateY(-15px);
 }
-/* Styling untuk ukuran teks */
-.promo-ended h3 {
-    font-size: 24px; /* Ukuran teks besar untuk PC */
-    line-height: 1.4;
-    padding: 15px;
-}
-
-.bill-type .monthly,
-.bill-type .annually {
-    font-size: 28px; /* Ukuran teks besar untuk PC */
-}
-
-/* Responsive design untuk mobile */
-@media screen and (max-width: 768px) {
-    .promo-ended h3 {
-        font-size: 22px; /* Ukuran teks besar untuk mobile */
-    }
-    
-    .bill-type .monthly,
-    .bill-type .annually {
-        font-size: 20px; /* Ukuran teks besar untuk mobile */
-    }
-}
-
-/* Styling tambahan untuk layout */
-.bill-type {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 15px;
-    justify-content: center;
-}
-
-.bill-toggle {
-    position: relative;
-    display: inline-block;
-}
 /* Heading Section */
 .section-heading {
   padding: 30px 20px;
@@ -1276,4 +1239,40 @@ a {
   .footer-brand {
     grid-column: auto;
   }
+  /* Styling untuk ukuran teks */
+.promo-ended h3 {
+    font-size: 24px; /* Ukuran teks besar untuk PC */
+    line-height: 1.4;
+    padding: 15px;
+}
+
+.bill-type .monthly,
+.bill-type .annually {
+    font-size: 28px; /* Ukuran teks besar untuk PC */
+}
+
+/* Responsive design untuk mobile */
+@media screen and (max-width: 768px) {
+    .promo-ended h3 {
+        font-size: 22px; /* Ukuran teks besar untuk mobile */
+    }
+    
+    .bill-type .monthly,
+    .bill-type .annually {
+        font-size: 20px; /* Ukuran teks besar untuk mobile */
+    }
+
+/* Styling tambahan untuk layout */
+.bill-type {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.bill-toggle {
+    position: relative;
+    display: inline-block;
+}
 }
