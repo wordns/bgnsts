@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fully Responsive Agency Landing Page</title>
+
+    <!-- Ionicons Scripts -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Apple Touch Icon -->
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="https://ik.imagekit.io/o3qzlqp5p/Hitam_Putih_Elegan_Modern_Inisial_Huruf_Salon_Logo-removebg-preview.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="CodePen" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://codepen.io/tedmartins/pen/mdoVaKW" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/wordns/banugn-situs@main/style.css"
+    />
+  </head>
+  <body id="top">
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+        <a href="#" class="logo" id="header-logo">
+          <img
+            src="https://ik.imagekit.io/o3qzlqp5p/bangunsituslogo.png?updatedAt=1734662780002"
+            alt="Ted Martins Logo"
+            style="max-width: 230px; margin-top: -14px"
+          />
+        </a>
+        <a href="https://bangunsitus.com/login" class="logo mobile-only">
+          <ion-icon
+            name="log-in-outline"
+            style="font-size: 24px; vertical-align: middle"
+          ></ion-icon>
+          <span class="login-text">Login</span>
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo mobile-only">
+              <ion-icon
+                name="log-in-outline"
+                style="font-size: 24px; vertical-align: middle"
+              ></ion-icon>
+            </a>
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-navbar-link
+                >Hosting Gratis</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#features" class="navbar-link" data-navbar-link
+                >Tools Gratis</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#FAQ" class="navbar-link" data-navbar-link>FAQ</a>
+            </li>
+            <li class="navbar-item">
+              <a href="/blog/" class="navbar-link" data-navbar-link>Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="/login" class="btn">
+          <ion-icon name="log-in-outline" aria-hidden="true"></ion-icon>
+          <span>Login</span>
+        </a>
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article>
+        <!-- Hero Section (Diperbaiki: tag <p> subtitle ditutup dengan benar) -->
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">Jasa Pembuatan Website Murah</p>
+              <h2 class="h2 hero-title">
+                Hosting GRATIS Selamaya Terbaik Indonesia
+              </h2>
+              <p class="hero-text">
+                Miliki website Profesional tanpa biaya hosting! Cukup domain,
+                terhubung Google Sheets, dan mulai berpenghasilan. Dominasi
+                dunia online sekarang!
+              </p>
+              <button class="btn" onclick="scrollToSection()">
+                Pesan Sekarang
+              </button>
+            </div>
+            <figure class="hero-banner">
+              <img
+                alt="hero-banner"
+                class="banner-animation w-100"
+                height="529"
+                loading="lazy"
+                src="https://ik.imagekit.io/o3qzlqp5p/bangunsitus2.png"
+                width="694"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                alt="about banner"
+                class="banner-animation w-100"
+                height="500"
+                loading="lazy"
+                src="https://ik.imagekit.io/o3qzlqp5p/bangunsitus.png?raw=true"
+                width="500"
+              />
+            </figure>
+            <div class="about-content">
+              <h2 class="h2 section-title underline">
+                Apa Kata Dunia Jika Kamu Gapunya Website
+              </h2>
+              <p class="about-text">
+                <b>Bangunsitus.com</b> adalah penyedia jasa pembuatan website
+                profesional yang fokus banget buat ngasih solusi digital praktis
+                dan terjangkau
+                <b
+                  >Buat Website Dengan Harga Murah Tanpa Perlu Hosting Yang
+                  Bikin Kantong Jebol, udah nggak jadi mimpi lagi!</b
+                >.
+              </p>
+              <p class="about-text">
+                Kami siap bantu wujudin website impian kamu, entah itu
+                <b
+                  >website portofolio, toko online, berita, atau website
+                  perusahaan</b
+                >. Semua web dirancang khusus buat nge-cover berbagai kebutuhan
+                digital, seperti <b>blog, landing page, e-commerce,</b> dan
+                <b>sales marketing</b>.
+              </p>
+              <p class="about-text">
+                <b
+                  >Yuk, mulai langkah pertama buat dominasi dunia digital kamu
+                  sekarang! Jangan tunda kesuksesan di era modern ini. Waktunya
+                  melangkah ke depan! 🚀</b
+                >
+              </p>
+              <ul class="stats-list">
+                <li class="stats-card">
+                  <p class="h3 stats-title">9875</p>
+                  <p class="stats-text">Klien Terpuaskan</p>
+                </li>
+                <li class="stats-card">
+                  <p class="h3 stats-title">7894</p>
+                  <p class="stats-text">Proyek Website</p>
+                </li>
+                <li class="stats-card">
+                  <p class="h3 stats-title">10+</p>
+                  <p class="stats-text">Pengalaman</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section service" id="services">
+          <div class="container">
+            <h2 class="h2 section-title underline">
+              Ubah Google Sheets To Website
+            </h2>
+            <p class="center-text service-description">
+              Lebih Hemat dengan memanfaatkan Google Sheets untuk kebutuhan
+              hosting dan VPS.
+            </p>
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="cloud-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 title"><del>Hosting 20GB</del></h3>
+                  <h3 class="h3 title">
+                    Rp180k/Bulan
+                    <span style="color: red">Rp1.7jt/Tahun</span> ❌
+                  </h3>
+                  <p class="text">Kapasitas hingga <b>40.000 Konten!</b></p>
+                  <p class="text" style="color: #ff5722; font-weight: 700">
+                    Tanpa Penghematan
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="documents-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 title">Google Sheets</h3>
+                  <h3 class="h3 title">
+                    Rp 0k/Bulan <span style="color: red">Rp 0/Tahun</span> ✅
+                  </h3>
+                  <p class="text">Kapasitas hingga <b>1.000.000 Konten!</b></p>
+                  <p class="text" style="color: #ff5722; font-weight: 700">
+                    Penghematan 100%
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 title"><del>VPS 360GB</del></h3>
+                  <h3 class="h3 title">
+                    Rp1,2jt/Bulan
+                    <span style="color: red">Rp14jt/Tahun</span> ❌
+                  </h3>
+                  <p class="text">Kapasitas hingga <b>700.000 Konten!</b></p>
+                  <p class="text" style="color: #ff5722; font-weight: 700">
+                    Penghematan 50%
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section features" id="features">
+          <div class="container">
+            <h2 class="h2 section-title underline">Bonus Tools Canggih</h2>
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="bulb-outline"></ion-icon>
+                  </div>
+                  <div class="content">
+                    <h3 class="h3 title">Tools Scrapper + AI</h3>
+                    <p class="text">
+                      Buat Ribuan Konten Gratis dengan Cepat! Hasilkan ratusan
+                      hingga ribuan artikel AI hanya dalam hitungan detik.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </div>
+                  <div class="content">
+                    <h3 class="h3 title">Tools Riset Keyword</h3>
+                    <p class="text">
+                      {Volume, CPC, Adwords, dll} GRATIS! Bidik keyword di
+                      Google dengan tools riset kata kunci premium yang dapat
+                      langsung digunakan di Spreadsheets.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <figure class="features-banner">
+              <img
+                alt="Features Banner"
+                class="banner-animation w-100"
+                height="318"
+                loading="lazy"
+                src="https://ik.imagekit.io/o3qzlqp5p/laptop-with-blank-screen-shield-removebg-preview.png"
+                width="369"
+              />
+            </figure>
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                  </div>
+                  <div class="content">
+                    <h3 class="h3 title">Tools Editor Template</h3>
+                    <p class="text">
+                      Mudah Digunakan GRATIS! Tersedia bantuan tools untuk
+                      mengedit dan membangun template landing dengan mudah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                  </div>
+                  <div class="content">
+                    <h3 class="h3 title">API INDEXING Index</h3>
+                    <p class="text">
+                      Artikel 24 Jam GRATIS! Kirim konten sebanyak mungkin ke
+                      Google dengan cepat menggunakan API Indexing, yang bisa
+                      langsung digunakan di Spreadsheets.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Gratis Template Website Section -->
+        <h2 class="h2 section-title underline">Gratis Template Website</h2>
+        <p class="center-text service-description">
+          Gratis! Template website keren: blog, portal berita, landing page,
+          sales page, dan lainnya. Langsung ambil sekarang!
+        </p>
+        <section class="slider-section">
+          <div class="owl-carousel owl-theme">
+            <a href="https://golpedia.com" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/24.png);
+                "
+              >
+                <div class="item-title">Template : Berita Informasi</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-fashion" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/8.png);
+                "
+              >
+                <div class="item-title">Template : Landing Fashion</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-edu-well" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/7.png);
+                "
+              >
+                <div class="item-title">Template : Landing Edu Well</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-ebook-1" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/6.png);
+                "
+              >
+                <div class="item-title">Template : Landing Ebook</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-cafe-house" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/5.png);
+                "
+              >
+                <div class="item-title">Template : Landing Cafe House</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-brunch" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/4.png);
+                "
+              >
+                <div class="item-title">Template : Landing Brunch</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-bisnis-softy-pinko" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/3.png);
+                "
+              >
+                <div class="item-title">
+                  Template : Landing Bisnis Softy Pinko
+                </div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-raleway" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/26.png);
+                "
+              >
+                <div class="item-title">Template : Landing Raleway</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-topic-1" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/23.png);
+                "
+              >
+                <div class="item-title">Template : Landing Topic</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-topic-1" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/22.png);
+                "
+              >
+                <div class="item-title">Template : Landing Tiya Golf Club</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-ternak-hewan" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/21.png);
+                "
+              >
+                <div class="item-title">Template : Landing Ternak Hewan</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-teknologi" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/20.png);
+                "
+              >
+                <div class="item-title">Template : Landing Teknologi</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-teknoligo-digital" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/19.png);
+                "
+              >
+                <div class="item-title">Template : Teknologi Digital</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-edu-well" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/2.png);
+                "
+              >
+                <div class="item-title">Template : Edu Skills</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-edu-well" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/7.png);
+                "
+              >
+                <div class="item-title">Template : 1 Portal Informasi</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-sepatu" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/18.png);
+                "
+              >
+                <div class="item-title">Template : Landing Sepatu</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-robotic" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/17.png);
+                "
+              >
+                <div class="item-title">Template : Landing ROBOTIC</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-restoran-eatery" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/16.png);
+                "
+              >
+                <div class="item-title">Template : Restoran Eatery</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+            <a href="/landing-portofolio-1" style="text-decoration: none">
+              <div
+                class="item"
+                style="
+                  background-image: url(https://ik.imagekit.io/o3qzlqp5p/Tem%20Demo/TEM%20DEMO/iloveimg-compressed/15.png);
+                "
+              >
+                <div class="item-title">Template : Landing Portofolio</div>
+                <div class="icon-overlay"><i class="fa fa-eye"></i></div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- Pesan Sekarang Section -->
+        <section id="PesanSekarang" style="margin-top: 30px">
+          <div class="section-heading text-center">
+            <h2>
+              <span class="promo-banner"
+                >Jadi, tunggu apa lagi? Yuk, wujudkan Website Impian kamu bareng
+                kita!</span
+              >
+              <p>PROMO Sampai Jam 12 Malam</p>
+              <div class="countdown-timer" id="countdown">
+                <div class="countdown-item">
+                  <span class="countdown-number" id="days">0</span>
+                  <span class="countdown-label">Hari</span>
+                </div>
+                <div class="countdown-item">
+                  <span class="countdown-number" id="hours">0</span>
+                  <span class="countdown-label">Jam</span>
+                </div>
+                <div class="countdown-item">
+                  <span class="countdown-number" id="minutes">0</span>
+                  <span class="countdown-label">Menit</span>
+                </div>
+                <div class="countdown-item">
+                  <span class="countdown-number" id="seconds">0</span>
+                  <span class="countdown-label">Detik</span>
+                </div>
+              </div>
+              <div class="promo-ended" id="content">Promo Terakhir</div>
+            </h2>
+          </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <div class="promo-ended" id="content">
+          <h3>
+            Silahkan geser pilih lisensi mau setahun atau selamaya . . . ! !
+          </h3>
+        </div>
+        <section>
+          <div class="bill-type">
+            <div class="monthly"><b>SELAMAYA</b></div>
+            <div class="bill-toggle">
+              <input checked id="bill-toggle" type="checkbox" />
+              <label for="bill-toggle"></label>
+            </div>
+            <div class="annually"><b>SETAHUN</b></div>
+          </div>
+          <div class="pricing-table">
+            <div class="plan starter">
+              <h2 class="name">Buat 1 Website</h2>
+              <div class="price" id="starter-price">
+                Rp.199K <sub>/ Tahun</sub>
+              </div>
+              <ul class="features">
+                <li>✔️ Update Gratis Selamanya</li>
+                <li>✔️ Panduan Instalasi & Penggunaan</li>
+                <li>✔️ Akses ke Grup Support</li>
+                <li>🎁 Bonus:</li>
+                <li>✔️ Template Blog & Landingpage Premium</li>
+                <li>✔️ Tools Scrapper & AI</li>
+                <li>✔️ Tools Riset Keyword</li>
+                <li>✔️ Tools API Indexing</li>
+                <li>✔️ Kelas SEO Gratis</li>
+              </ul>
+              <a class="choose-btn" href="/order-1-website">Pesan Sekarang</a>
+            </div>
+            <div class="plan pro">
+              <h2 class="name">Buat 3 Website</h2>
+              <div class="price" id="pro-price">Rp.135K <sub>/ Tahun</sub></div>
+              <div class="maus-options"></div>
+              <ul class="features">
+                <li>✔️ Update Gratis Selamanya</li>
+                <li>✔️ Panduan Instalasi & Penggunaan</li>
+                <li>✔️ Akses ke Grup Support</li>
+                <li>🎁 Bonus:</li>
+                <li>✔️ Template Blog & Landingpage Premium</li>
+                <li>✔️ Tools Scrapper & AI</li>
+                <li>✔️ Tools Riset Keyword</li>
+                <li>✔️ Tools API Indexing</li>
+                <li>✔️ Kelas SEO Gratis</li>
+              </ul>
+              <a class="choose-btn" href="/order-3-website">Pesan Sekarang</a>
+            </div>
+            <div class="plan enterprise">
+              <h2 class="name">Buat 6 Website</h2>
+              <div class="price" id="enterprise-price">
+                Rp.99K <sub>/ Tahun</sub>
+              </div>
+              <div class="maus-options"></div>
+              <ul class="features">
+                <li>✔️ Update Gratis Selamanya</li>
+                <li>✔️ Panduan Instalasi & Penggunaan</li>
+                <li>✔️ Akses ke Grup Support</li>
+                <li>🎁 Bonus:</li>
+                <li>✔️ Template Blog & Landingpage Premium</li>
+                <li>✔️ Tools Scrapper & AI</li>
+                <li>✔️ Tools Riset Keyword</li>
+                <li>✔️ Tools API Indexing</li>
+                <li>✔️ Kelas SEO Gratis</li>
+              </ul>
+              <a class="choose-btn" href="/order-6-website">Pesan Sekarang</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Jasa SEO Bulanan Section -->
+        <section id="about" class="section about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                alt="about banner"
+                src="https://ik.imagekit.io/o3qzlqp5p/33a057bfe9394111af4051b7adf100ef-removebg-preview.png?raw=true"
+                class="banner-animation w-100"
+                height="532"
+                loading="lazy"
+                width="700"
+              />
+            </figure>
+            <div class="about-content">
+              <h2 class="h2 section-title underline">Jasa SEO Bulanan</h2>
+              <p class="about-text">
+                Kami juga tersedia jasa SEO bulanan dengan harga terjangkau dan
+                layanan lengkap:
+              </p>
+              <ul class="seo-benefits">
+                <li>✔️ Harga Mulai Rp2.700.000/Bulan</li>
+                <li>✔️ GRATIS Konten Harian Berkualitas</li>
+                <li>✔️ GRATIS Optimasi Kecepatan Website</li>
+                <li>✔️ GRATIS Backlink Berkualitas</li>
+              </ul>
+              <p class="about-text">
+                Tingkatkan traffic, raih lebih banyak pelanggan, dan maksimalkan
+                potensi bisnis Anda secara online. Jangan lewatkan kesempatan
+                untuk bekerja dengan tim SEO profesional kami! Hubungi kami
+                sekarang dan jadilah yang terdepan di dunia digital!
+              </p>
+              <button
+                class="btn"
+                onclick='window.open("https://wa.me/6285183149448?text=Halo,%20saya%20tertarik%20dengan%20jasa%20SEO%20Anda.%20Bisa%20kita%20diskusikan%20lebih%20lanjut?","_blank")'
+              >
+                Konsultasi GRATIS!
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="FAQ" class="section FAQ">
+          <div class="container">
+            <h2 class="h2 section-title underline">Q&A Pelanggan</h2>
+            <div class="faq-container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah saya akan dipandu untuk proses instalasi dan
+                    penggunaannya?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Tentu saja! Proses instalasi dan penggunaan Web Spreadsheets
+                    biasanya dirancang user-friendly, ditambah dengan panduan
+                    lengkap berupa dokumen atau tutorial video. Jadi, nggak
+                    perlu takut bingung!
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Benarkah Web Spreadsheets tidak memerlukan hosting sama
+                    sekali?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Iya, Web Spreadsheets tidak membutuhkan hosting tradisional
+                    karena semuanya berbasis cloud. Cukup gunakan Google
+                    Spreadsheets sebagai "otak" utama situs Anda!
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Seberapa baik Web Spreadsheets dalam mendukung SEO dan
+                    index Google?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Web Spreadsheets punya potensi SEO yang luar biasa! Dengan
+                    struktur data yang rapi dan kecepatan akses yang tinggi,
+                    situs Anda punya peluang besar untuk muncul di halaman
+                    pertama Google.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah bisa digunakan untuk platform iklan seperti AdSense,
+                    Adsterra, atau MGID?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Tentu saja bisa! Anda dapat menambahkan kode iklan dari
+                    berbagai platform seperti AdSense, Adsterra, atau MGID
+                    dengan mudah. Pastikan saja situs Anda sesuai dengan
+                    kebijakan mereka.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah tersedia opsi untuk menggunakan domain atau
+                    subdomain custom?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Bisa banget! Anda bisa menghubungkan domain atau subdomain
+                    pilihan Anda agar website terlihat lebih profesional dan
+                    personal.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah Google Spreadsheets dapat digunakan secara
+                    gratis?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yup, Google Spreadsheets itu gratis selama Anda menggunakan
+                    akun Google. Tapi kalau pakai fitur premium seperti Google
+                    Workspace, mungkin ada biaya tambahan.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah Web Spreadsheets cocok untuk semua jenis
+                    website?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Web Spreadsheets fleksibel dan dapat digunakan untuk
+                    berbagai jenis website, seperti blog, e-commerce, atau
+                    portal informasi. Kreativitas Anda adalah batasannya!
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah tersedia fitur pengaturan website dan pembuatan
+                    template?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Ya, tersedia! Anda bisa mengatur desain website dan membuat
+                    template sesuai kebutuhan, sehingga website terlihat unik
+                    dan menarik.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Bisakah domain diganti sewaktu-waktu sesuai
+                    kebutuhan?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Bisa banget! Jika ingin rebranding atau sekadar mengganti
+                    domain, prosesnya mudah dan tidak ribet.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah layanan ini dapat menjadi alternatif pengganti
+                    hosting?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Betul, Web Spreadsheets bisa menjadi solusi hosting
+                    alternatif yang simpel dan hemat biaya karena semuanya
+                    berbasis cloud.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >Apakah akan ada pembaruan sistem atau fitur di masa
+                    mendatang?</span
+                  >
+                  <div class="faq-arrow"></div>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Tentu saja! Anda akan mendapatkan pembaruan fitur dan sistem
+                    secara berkala untuk memastikan website tetap optimal dan
+                    up-to-date.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- WhatsApp Floating Button -->
+        <section>
+          <a
+            class="float"
+            href="https://api.whatsapp.com/send/?phone=6285183149448&text=Halo,%20saya%20tertarik%20dengan%20jasa%20Buat%20Web%20Dengan%20Google%20Sheets.%20Bisa%20kita%20diskusikan%20lebih%20lanjut?%3F&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <i class="fa fa-whatsapp my-float"></i>
+          </a>
+        </section>
+
+        <!-- Footer -->
+        <section>
+          <footer class="footer">
+            <div class="section footer-top">
+              <div class="container">
+                <div class="footer-brand">
+                  <a class="logo" href="#">
+                    <img
+                      alt="Ted Martins Logo"
+                      src="https://ik.imagekit.io/o3qzlqp5p/bangunsituslogo.png"
+                      style="max-width: 230px"
+                    />
+                  </a>
+                  <p class="text">
+                    Solusi Jasa Pembuatan Website Murah dan Profesional Dengan
+                    Hosting Gratis Terbaik di Indonesia
+                  </p>
+                  <ul class="social-list">
+                    <li>
+                      <a class="social-link" href="#"
+                        ><ion-icon name="logo-facebook"></ion-icon
+                      ></a>
+                    </li>
+                    <li>
+                      <a class="social-link" href="#"
+                        ><ion-icon name="logo-instagram"></ion-icon
+                      ></a>
+                    </li>
+                    <li>
+                      <a class="social-link" href="#"
+                        ><ion-icon name="logo-twitter"></ion-icon
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="footer-list">
+                  <li><p class="footer-list-title">Bangun Situs</p></li>
+                  <li><a class="footer-link" href="#">Home</a></li>
+                  <li><a class="footer-link" href="#">About Us</a></li>
+                  <li><a class="footer-link" href="#">Hosting Gratis</a></li>
+                  <li><a class="footer-link" href="#">Toools Gratis</a></li>
+                  <li><a class="footer-link" href="/blog/">Blog</a></li>
+                </ul>
+                <ul class="footer-list">
+                  <li><p class="footer-list-title">Layanan</p></li>
+                  <li>
+                    <a class="footer-link" href="https://bangunsitus.com/"
+                      >Jasa Website Murah</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link" href="https://bangunsitus.com/"
+                      >Jasa Website Profesional</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link" href="https://bangunsitus.com/"
+                      >Jasa Website toko online Murah</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link" href="https://bangunsitus.com/"
+                      >Jasa website perusahaan</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#">Harga jasa buat website</a>
+                  </li>
+                </ul>
+                <ul class="footer-list">
+                  <li><p class="footer-list-title">Other links</p></li>
+                  <li><a class="footer-link" href="#">FAQ</a></li>
+                  <li><a class="footer-link" href="#">Portfolio</a></li>
+                  <li><a class="footer-link" href="#">Privacy Policy</a></li>
+                  <li>
+                    <a class="footer-link" href="#">Terms & Conditions</a>
+                  </li>
+                  <li><a class="footer-link" href="#">Support</a></li>
+                </ul>
+                <ul class="footer-list">
+                  <li><p class="footer-list-title">Kontak Kami</p></li>
+                  <li class="footer-item">
+                    <div class="footer-item-icon">
+                      <ion-icon name="call"></ion-icon>
+                    </div>
+                    <div>
+                      <a
+                        class="footer-item-link"
+                        href="https://wa.me/6285183149448?text=Halo,%20saya%20tertarik%20dengan%20jasa%20Buat%20Web%20Dengan%20Google%20Sheets.%20Bisa%20kita%20diskusikan%20lebih%20lanjut?"
+                        >+62 851-8314-9448</a
+                      >
+                    </div>
+                  </li>
+                  <li class="footer-item">
+                    <div class="footer-item-icon">
+                      <ion-icon name="mail"></ion-icon>
+                    </div>
+                    <div>
+                      <a class="footer-item-link" href="#"
+                        >bangunwebcs@gmail.com</a
+                      >
+                    </div>
+                  </li>
+                  <li class="footer-item">
+                    <div class="footer-item-icon">
+                      <ion-icon name="location"></ion-icon>
+                    </div>
+                    <address class="footer-item-link">
+                      Garut, Jawa Barat, Indonesia
+                    </address>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p class="copyright">
+                © 2025 <a class="copyright-link" href="#">Bangunsitus</a>. All
+                Right Reserved
+              </p>
+            </div>
+          </footer>
+        </section>
+
+        <!-- Go To Top Button -->
+        <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+          <ion-icon name="arrow-up-outline"></ion-icon>
+        </a>
+      </article>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      "use strict";
+
+      // Navbar Toggle
+      const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+      const navbar = document.querySelector("[data-navbar]");
+      const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+      const overlay = document.querySelector("[data-overlay]");
+      const elemArr = [navCloseBtn, overlay, navOpenBtn];
+
+      for (let i = 0; i < elemArr.length; i++) {
+        elemArr[i].addEventListener("click", function () {
+          navbar.classList.toggle("active");
+          overlay.classList.toggle("active");
+        });
+      }
+
+      const navbarLinks = document.querySelectorAll("[data-navbar-link]");
+      for (let i = 0; i < navbarLinks.length; i++) {
+        navbarLinks[i].addEventListener("click", function () {
+          navbar.classList.toggle("active");
+          overlay.classList.toggle("active");
+        });
+      }
+
+      // Header & Go Top Button Activation on Scroll
+      const header = document.querySelector("[data-header]");
+      const goTopBtn = document.querySelector("[data-go-top]");
+      window.addEventListener("scroll", function () {
+        if (window.scrollY >= 400) {
+          header.classList.add("active");
+          goTopBtn.classList.add("active");
+        } else {
+          header.classList.remove("active");
+          goTopBtn.classList.remove("active");
+        }
+      });
+
+      // Logo Scroll Effect
+      const logo = document.getElementById("header-logo");
+      window.addEventListener("scroll", () => {
+        window.scrollY > 50
+          ? document.body.classList.add("scrolled")
+          : document.body.classList.remove("scrolled");
+      });
+
+      // Fetch Google Sheets Data
+      const sheetId = "1GHWWnsgYBPMW0wz3hyc5411fxw0Cm8C4P8MEa-SHAME";
+      const sheetGid = "1079185640";
+      const url =
+        "https://docs.google.com/spreadsheets/d/1GHWWnsgYBPMW0wz3hyc5411fxw0Cm8C4P8MEa-SHAME/gviz/tq?tqx=out:json&tq=select A, C, D order by A limit 100&gid=1200326854&responseHandler=myQueryHandler";
+      fetch(url)
+        .then((e) => e.text())
+        .then((e) => {
+          let t = JSON.parse(e.substring(47, e.length - 2)),
+            r = t.table.rows;
+          r.forEach((e) => {
+            if ("judul" != e.c[0].v) {
+              document.querySelector("#datatheme").innerHTML += `
+                            <div class="demo demo-0">
+                                <div class="demo-wrap">
+                                    <img alt="Default Demo" src="${e.c[1].v}">
+                                    <div class="flex-item">
+                                        <div class="demo-title">${e.c[0].v} GRATIS</div>
+                                        <a class="demo-preview" href="${e.c[2].v}" target="_blank"><i class="fa fa-eye"></i>Demo</a>
+                                    </div>
+                                </div>
+                            </div>`;
+              console.log(e.c[1].v);
+            }
+          });
+        })
+        .catch((e) => console.error(e));
+
+      // Owl Carousel Initialization
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: false,
+          responsive: {
+            0: { items: 1 },
+            768: { items: 2 },
+            1200: { items: 3 },
+          },
+          navText: [
+            '<button class="owl-prev"><i class="fa fa-chevron-left"></i></button>',
+            '<button class="owl-next"><i class="fa fa-chevron-right"></i></button>',
+          ],
+        });
+      });
+
+      // Countdown Timer
+      const targetDate = new Date();
+      targetDate.setHours(23, 59, 59);
+      function updateCountdown() {
+        let e = new Date().getTime(),
+          t = targetDate - e;
+        if (t > 0) {
+          document.getElementById("days").textContent = Math.floor(
+            t / 86400000
+          );
+          document.getElementById("hours").textContent = Math.floor(
+            (t % 86400000) / 3600000
+          );
+          document.getElementById("minutes").textContent = Math.floor(
+            (t % 3600000) / 60000
+          );
+          document.getElementById("seconds").textContent = Math.floor(
+            (t % 60000) / 1000
+          );
+        } else {
+          document.querySelector(".countdown").innerHTML =
+            "<p>PROMO Telah Berakhir!</p>";
+        }
+      }
+      setInterval(updateCountdown, 1000);
+      updateCountdown();
+
+      // Pricing Toggle
+      const monthlyPrices = { starter: 199, pro: 135, enterprise: 99 };
+      const annualPrices = { starter: 299, pro: 199, enterprise: 150 };
+      const billToggle = document.getElementById("bill-toggle");
+      const starterPrice = document.getElementById("starter-price");
+      const proPrice = document.getElementById("pro-price");
+      const enterprisePrice = document.getElementById("enterprise-price");
+      billToggle.addEventListener("change", () => {
+        if (billToggle.checked) {
+          starterPrice.innerHTML = `Rp.${monthlyPrices.starter}K <sub>/Tahun</sub>`;
+          proPrice.innerHTML = `Rp.${monthlyPrices.pro}K <sub>/Tahun</sub>`;
+          enterprisePrice.innerHTML = `Rp.${monthlyPrices.enterprise}K <sub>/Tahun</sub>`;
+        } else {
+          starterPrice.innerHTML = `Rp.${annualPrices.starter}K <sub>/Selamaya</sub>`;
+          proPrice.innerHTML = `Rp.${annualPrices.pro}K <sub>/Selamaya</sub>`;
+          enterprisePrice.innerHTML = `Rp.${annualPrices.enterprise}K <sub>/Selamaya</sub>`;
+        }
+      });
+
+      // Scroll to Section
+      function scrollToSection() {
+        let e = document.getElementById("PesanSekarang");
+        e && e.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      // FAQ Accordion
+      const faqItems = document.querySelectorAll(".faq-question");
+      faqItems.forEach((e) => {
+        e.addEventListener("click", () => {
+          e.classList.toggle("active");
+          let t = e.nextElementSibling;
+          t.style.display = t.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
+</html>
