@@ -623,6 +623,7 @@ body {
   opacity: 1;
   transform: translateY(-15px);
 }
+
 /* Heading Section */
 .section-heading {
   padding: 30px 20px;
@@ -679,6 +680,10 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
+
+
+
 @media (max-width: 768px) {
   .section-heading {
     padding: 20px 15px;
@@ -1239,40 +1244,42 @@ a {
   .footer-brand {
     grid-column: auto;
   }
-  /* Styling untuk ukuran teks */
+}
+
+/* Styling untuk ukuran teks */
 .promo-ended h3 {
-    font-size: 24px; /* Ukuran teks besar untuk PC */
-    line-height: 1.4;
-    padding: 15px;
+  font-size: 24px; /* Ukuran teks besar untuk PC */
+  line-height: 1.4;
+  padding: 15px;
 }
 
 .bill-type .monthly,
 .bill-type .annually {
-    font-size: 28px; /* Ukuran teks besar untuk PC */
+  font-size: 28px; /* Ukuran teks besar untuk PC */
 }
 
 /* Responsive design untuk mobile */
 @media screen and (max-width: 768px) {
-    .promo-ended h3 {
-        font-size: 22px; /* Ukuran teks besar untuk mobile */
-    }
-    
-    .bill-type .monthly,
-    .bill-type .annually {
-        font-size: 20px; /* Ukuran teks besar untuk mobile */
-    }
+  .promo-ended h3 {
+      font-size: 22px; /* Ukuran teks besar untuk mobile */
+  }
+  
+  .bill-type .monthly,
+  .bill-type .annually {
+      font-size: 20px; /* Ukuran teks besar untuk mobile */
+  }
+}
 
 /* Styling tambahan untuk layout */
 .bill-type {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 15px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  justify-content: center;
 }
 
 .bill-toggle {
-    position: relative;
-    display: inline-block;
-}
+  position: relative;
+  display: inline-block;
 }
